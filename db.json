@@ -41,20 +41,20 @@
     {
       "name": "iPhone 13",
       "price": "69900",
+      "color": "starlight (white)",
       "category": "mobile iOS",
-      "color": "starlight",
-      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-storage-select-202207-starlight?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1693064357886",
       "description": "As part of our efforts to reach carbon neutrality by 2030, iPhone 13 does not include a power adapter or EarPods. Included in the box is a USB‑C to Lightning Cable that supports charging and is compatible with USB‑C power adapters and computer ports.",
-      "id": 2
+      "image": "https://cdn.shopify.com/s/files/1/0577/7371/9758/products/buy-apple-iphone-13-256gb-61-super-retina-xdr-wi-fi-5g-white-mobile-wibi-want-it-buy-it-kuwait-554646_large.png?v=1669747198",
+      "id": 1
     },
     {
-      "name": "iPhone 13",
-      "price": "69900",
-      "category": "mobile iOS",
+      "name": "iPhone 13 Pro Max",
+      "price": 119900,
       "color": "starlight",
-      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-storage-select-202207-starlight?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1693064357886",
-      "description": "",
-      "id": 3
+      "category": "mobile iOS",
+      "description": "As part of our efforts to reach carbon neutrality by 2030, iPhone 13 does not include a power adapter or EarPods. Included in the box is a USB‑C to Lightning Cable that supports charging and is compatible with USB‑C power adapters and computer ports.",
+      "image": "https://wibi.com.kw/cdn/shop/products/buy-apple-iphone-13-pro-max-128gb-67-super-retina-xdr-wi-fi-5g-silver-mobile-wibi-want-it-buy-it-kuwait-311380_1024x1024.png?v=1661351527",
+      "id": 5
     }
   ]
 }
