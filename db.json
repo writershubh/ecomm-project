@@ -1,0 +1,60 @@
+{
+  "seller": [
+    {
+      "name": "Shubham Agrawal",
+      "email": "shubham@seller.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "Shubham Kumar",
+      "email": "shubhamkr@seller.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "qwerty",
+      "password": "abc@123",
+      "email": "qwerty@seller.com",
+      "id": 3
+    },
+    {
+      "name": "new",
+      "password": "abc@123",
+      "email": "new@test.com",
+      "id": 4
+    },
+    {
+      "name": "abc",
+      "password": "abc@123",
+      "email": "abc@testing.com",
+      "id": 5
+    },
+    {
+      "name": "hhh",
+      "password": "abc@123",
+      "email": "hhh@hh.com",
+      "id": 6
+    }
+  ],
+  "products": [
+    {
+      "name": "iPhone 13",
+      "price": "69900",
+      "category": "mobile iOS",
+      "color": "starlight",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-storage-select-202207-starlight?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1693064357886",
+      "description": "As part of our efforts to reach carbon neutrality by 2030, iPhone 13 does not include a power adapter or EarPods. Included in the box is a USB‑C to Lightning Cable that supports charging and is compatible with USB‑C power adapters and computer ports.",
+      "id": 2
+    },
+    {
+      "name": "iPhone 13",
+      "price": "69900",
+      "category": "mobile iOS",
+      "color": "starlight",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-storage-select-202207-starlight?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1693064357886",
+      "description": "",
+      "id": 3
+    }
+  ]
+}
