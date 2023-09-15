@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
-body {
+body, .form-input, .common-form {
     font-family: 'Helvetica-Now-Text-Light', Helvetica, Arial, sans-serif !important;
-    font-weight: 100;
+    font-weight: 100 !important;
 }
 
 .container {
@@ -37,9 +37,16 @@ body {
 h1,
 p {
     color: black;
-    font-family: 'Helvetica-Now-Text-Light', Helvetica, Arial, sans-serif !important;
-    font-weight: 100;
+    font-weight: 100 !important;
 }
 .msg-p{
     color: green;
+}
+.carousel-caption{
+    background-color: #00000082;
+    border-radius: 5px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: black;
+    border-radius: 5px;
 }
