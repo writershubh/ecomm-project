@@ -1,1 +1,12 @@
-<p>search works!</p>
+<div class="row search-item" *ngFor="let item of searchResult">
+    <div class="col-sm-3">
+        <img src="{{item.image}}" alt="">
+    </div>
+    <div class="col-sm-8 details">
+        <h6 style="margin-top: 10px;">{{item.name}}</h6>
+        <p><strong>Price: ₹{{item.price}}</strong></p>
+        <p><strong>{{item.description}}</strong></p>
+        <p style="color: green;">Save extra with combo offer</p>
+        <p>Free Delivery, No Cost EMI available.</p>
+    </div>
+</div>
