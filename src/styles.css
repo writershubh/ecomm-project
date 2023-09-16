@@ -14,7 +14,7 @@ body, .form-input, .common-form {
     display: flex;
     margin: auto;
     flex-direction: column;
-    width: 300px;
+    width: 250px;
 }
 
 .form-input {
@@ -34,7 +34,7 @@ body, .form-input, .common-form {
     color: crimson !important;
 }
 
-h1,
+h1, 
 p {
     color: black;
     font-weight: 100 !important;
@@ -49,4 +49,7 @@ p {
 .carousel-control-next-icon, .carousel-control-prev-icon{
     background-color: black;
     border-radius: 5px;
+}
+.h5class{
+    color: green;
 }

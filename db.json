@@ -39,94 +39,76 @@
   ],
   "products": [
     {
-      "name": "iPhone 13",
+      "name": "APPLE iPhone 13 (Starlight, 128 GB)",
       "price": "69900",
-      "color": "starlight (white)",
+      "color": "Starlight",
       "category": "mobile iOS",
-      "description": "new iPhone",
+      "description": "128 GB ROM, 15.49 cm (6.1 inch) Super Retina XDR Display, 12MP + 12MP | 12MP Front Camera, A15 Bionic Chip Processor",
       "image": "https://cdn.shopify.com/s/files/1/0577/7371/9758/products/buy-apple-iphone-13-256gb-61-super-retina-xdr-wi-fi-5g-white-mobile-wibi-want-it-buy-it-kuwait-554646_large.png?v=1669747198",
       "id": 1
     },
     {
-      "name": "iPhone 13 Pro Max",
-      "price": 119900,
-      "color": "starlight",
+      "name": "APPLE iPhone 13 Pro Max (Starlight, 512 GB)",
+      "price": "119900",
+      "color": "Starlight",
       "category": "mobile iOS",
-      "description": "As part of our efforts to reach carbon neutrality by 2030, iPhone 13 does not include a power adapter or EarPods. Included in the box is a USB‑C to Lightning Cable that supports charging and is compatible with USB‑C power adapters and computer ports.",
+      "description": "512 GB ROM, 17.02 cm (6.7 inch) Super Retina XDR Display, 12MP + 12MP + 12MP | 12MP Front Camera, A15 Bionic Chip",
       "image": "https://wibi.com.kw/cdn/shop/products/buy-apple-iphone-13-pro-max-128gb-67-super-retina-xdr-wi-fi-5g-silver-mobile-wibi-want-it-buy-it-kuwait-311380_1024x1024.png?v=1661351527",
+      "id": 2
+    },
+    {
+      "name": "APPLE iPhone 13 (Starlight, 128 GB)",
+      "price": "69900",
+      "color": "Starlight",
+      "category": "mobile iOS",
+      "description": "128 GB ROM, 15.49 cm (6.1 inch) Super Retina XDR Display, 12MP + 12MP | 12MP Front Camera, A15 Bionic Chip Processor",
+      "image": "https://cdn.shopify.com/s/files/1/0577/7371/9758/products/buy-apple-iphone-13-256gb-61-super-retina-xdr-wi-fi-5g-white-mobile-wibi-want-it-buy-it-kuwait-554646_large.png?v=1669747198",
+      "id": 3
+    },
+    {
+      "name": "APPLE iPhone 13 Pro Max (Starlight, 512 GB)",
+      "price": "119900",
+      "color": "Starlight",
+      "category": "mobile iOS",
+      "description": "512 GB ROM, 17.02 cm (6.7 inch) Super Retina XDR Display, 12MP + 12MP + 12MP | 12MP Front Camera, A15 Bionic Chip",
+      "image": "https://wibi.com.kw/cdn/shop/products/buy-apple-iphone-13-pro-max-128gb-67-super-retina-xdr-wi-fi-5g-silver-mobile-wibi-want-it-buy-it-kuwait-311380_1024x1024.png?v=1661351527",
+      "id": 4
+    },
+    {
+      "name": "APPLE iPhone 13 (Starlight, 128 GB)",
+      "price": "69900",
+      "color": "Starlight",
+      "category": "mobile iOS",
+      "description": "128 GB ROM, 15.49 cm (6.1 inch) Super Retina XDR Display, 12MP + 12MP | 12MP Front Camera, A15 Bionic Chip Processor",
+      "image": "https://cdn.shopify.com/s/files/1/0577/7371/9758/products/buy-apple-iphone-13-256gb-61-super-retina-xdr-wi-fi-5g-white-mobile-wibi-want-it-buy-it-kuwait-554646_large.png?v=1669747198",
       "id": 5
     },
     {
-      "name": "iPhone 13",
-      "price": "69900",
+      "name": "APPLE iPhone 13 Pro Max (Starlight, 512 GB)",
+      "price": "119900",
+      "color": "Starlight",
       "category": "mobile iOS",
-      "color": "starlight",
-      "image": "https://cdn.shopify.com/s/files/1/0577/7371/9758/products/buy-apple-iphone-13-256gb-61-super-retina-xdr-wi-fi-5g-white-mobile-wibi-want-it-buy-it-kuwait-554646_large.png?v=1669747198",
-      "description": "As part of our efforts to reach carbon neutrality by 2030, iPhone 13 does not include a power adapter or EarPods. Included in the box is a USB‑C to Lightning Cable that supports charging and is compatible with USB‑C power adapters and computer ports.",
+      "description": "512 GB ROM, 17.02 cm (6.7 inch) Super Retina XDR Display, 12MP + 12MP + 12MP | 12MP Front Camera, A15 Bionic Chip",
+      "image": "https://wibi.com.kw/cdn/shop/products/buy-apple-iphone-13-pro-max-128gb-67-super-retina-xdr-wi-fi-5g-silver-mobile-wibi-want-it-buy-it-kuwait-311380_1024x1024.png?v=1661351527",
       "id": 6
     },
     {
-      "name": "iPhone 13",
+      "name": "APPLE iPhone 13 (Starlight, 128 GB)",
       "price": "69900",
+      "color": "Starlight",
       "category": "mobile iOS",
-      "color": "starlight",
+      "description": "128 GB ROM, 15.49 cm (6.1 inch) Super Retina XDR Display, 12MP + 12MP | 12MP Front Camera, A15 Bionic Chip Processor",
       "image": "https://cdn.shopify.com/s/files/1/0577/7371/9758/products/buy-apple-iphone-13-256gb-61-super-retina-xdr-wi-fi-5g-white-mobile-wibi-want-it-buy-it-kuwait-554646_large.png?v=1669747198",
-      "description": "As part of our efforts to reach carbon neutrality by 2030, iPhone 13 does not include a power adapter or EarPods. Included in the box is a USB‑C to Lightning Cable that supports charging and is compatible with USB‑C power adapters and computer ports.",
       "id": 7
     },
     {
-      "name": "iPhone 13",
-      "price": "69900",
+      "name": "APPLE iPhone 13 Pro Max (Starlight, 512 GB)",
+      "price": "119900",
+      "color": "Starlight",
       "category": "mobile iOS",
-      "color": "starlight",
-      "image": "https://cdn.shopify.com/s/files/1/0577/7371/9758/products/buy-apple-iphone-13-256gb-61-super-retina-xdr-wi-fi-5g-white-mobile-wibi-want-it-buy-it-kuwait-554646_large.png?v=1669747198",
-      "description": "As part of our efforts to reach carbon neutrality by 2030, iPhone 13 does not include a power adapter or EarPods. Included in the box is a USB‑C to Lightning Cable that supports charging and is compatible with USB‑C power adapters and computer ports.",
+      "description": "512 GB ROM, 17.02 cm (6.7 inch) Super Retina XDR Display, 12MP + 12MP + 12MP | 12MP Front Camera, A15 Bionic Chip",
+      "image": "https://wibi.com.kw/cdn/shop/products/buy-apple-iphone-13-pro-max-128gb-67-super-retina-xdr-wi-fi-5g-silver-mobile-wibi-want-it-buy-it-kuwait-311380_1024x1024.png?v=1661351527",
       "id": 8
-    },
-    {
-      "name": "iPhone 13",
-      "price": "69900",
-      "category": "mobile iOS",
-      "color": "starlight",
-      "image": "https://cdn.shopify.com/s/files/1/0577/7371/9758/products/buy-apple-iphone-13-256gb-61-super-retina-xdr-wi-fi-5g-white-mobile-wibi-want-it-buy-it-kuwait-554646_large.png?v=1669747198",
-      "description": "As part of our efforts to reach carbon neutrality by 2030, iPhone 13 does not include a power adapter or EarPods. Included in the box is a USB‑C to Lightning Cable that supports charging and is compatible with USB‑C power adapters and computer ports.",
-      "id": 9
-    },
-    {
-      "name": "iPhone 13",
-      "price": "69900",
-      "category": "mobile iOS",
-      "color": "starlight",
-      "image": "https://cdn.shopify.com/s/files/1/0577/7371/9758/products/buy-apple-iphone-13-256gb-61-super-retina-xdr-wi-fi-5g-white-mobile-wibi-want-it-buy-it-kuwait-554646_large.png?v=1669747198",
-      "description": "As part of our efforts to reach carbon neutrality by 2030, iPhone 13 does not include a power adapter or EarPods. Included in the box is a USB‑C to Lightning Cable that supports charging and is compatible with USB‑C power adapters and computer ports.",
-      "id": 10
-    },
-    {
-      "name": "iPhone 13",
-      "price": "69900",
-      "category": "mobile iOS",
-      "color": "starlight",
-      "image": "https://cdn.shopify.com/s/files/1/0577/7371/9758/products/buy-apple-iphone-13-256gb-61-super-retina-xdr-wi-fi-5g-white-mobile-wibi-want-it-buy-it-kuwait-554646_large.png?v=1669747198",
-      "description": "As part of our efforts to reach carbon neutrality by 2030, iPhone 13 does not include a power adapter or EarPods. Included in the box is a USB‑C to Lightning Cable that supports charging and is compatible with USB‑C power adapters and computer ports.",
-      "id": 11
-    },
-    {
-      "name": "iPhone 13",
-      "price": "69900",
-      "category": "mobile iOS",
-      "color": "starlight",
-      "image": "https://cdn.shopify.com/s/files/1/0577/7371/9758/products/buy-apple-iphone-13-256gb-61-super-retina-xdr-wi-fi-5g-white-mobile-wibi-want-it-buy-it-kuwait-554646_large.png?v=1669747198",
-      "description": "As part of our efforts to reach carbon neutrality by 2030, iPhone 13 does not include a power adapter or EarPods. Included in the box is a USB‑C to Lightning Cable that supports charging and is compatible with USB‑C power adapters and computer ports.",
-      "id": 12
-    },
-    {
-      "name": "iPhone 13",
-      "price": "69900",
-      "category": "mobile iOS",
-      "color": "starlight",
-      "image": "https://cdn.shopify.com/s/files/1/0577/7371/9758/products/buy-apple-iphone-13-256gb-61-super-retina-xdr-wi-fi-5g-white-mobile-wibi-want-it-buy-it-kuwait-554646_large.png?v=1669747198",
-      "description": "As part of our efforts to reach carbon neutrality by 2030, iPhone 13 does not include a power adapter or EarPods. Included in the box is a USB‑C to Lightning Cable that supports charging and is compatible with USB‑C power adapters and computer ports.",
-      "id": 13
     }
   ]
 }

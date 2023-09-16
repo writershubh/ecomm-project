@@ -61,3 +61,20 @@ img{
     width: 160px;
     height: 47px;
 }
+.suggested-result{
+    position: absolute;
+    display: list-item !important;
+    z-index: 10;
+    background-color: #fff;
+    width: 732px;
+    top: 65px;
+    border: 1px solid #ddd;
+}
+.suggested-result li{
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+.suggested-result li a{
+    cursor: pointer;
+    color: blueviolet;
+}
