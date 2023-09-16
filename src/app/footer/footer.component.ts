@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { faFacebook, faTwitter, faGoogle, faInstagram, faLinkedin, faGithub, faApple, faAndroid, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faHouse, faPhone } from '@fortawesome/free-solid-svg-icons';
 
@@ -7,7 +7,7 @@ import { faEnvelope, faHouse, faPhone } from '@fortawesome/free-solid-svg-icons'
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.css']
 })
-export class FooterComponent {
+export class FooterComponent implements OnInit {
 
   faFacebook = faFacebook;
   faTwitter = faTwitter;
@@ -21,4 +21,10 @@ export class FooterComponent {
   faApple = faApple;
   faAndroid = faAndroid;
   faYoutube = faYoutube;
+
+  constructor() { }
+
+  ngOnInit(): void {
+
+  }
 }
