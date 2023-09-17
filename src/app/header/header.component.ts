@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { ProductService } from '../services/product.service';
 import { product } from '../data-type';
+import { faCircleUser } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-header',
@@ -13,6 +14,7 @@ export class HeaderComponent {
   menuType = 'default';
   sellerName = '';
   searchResult: undefined | product[];
+  faCircleUser = faCircleUser;
 
   constructor(private route: Router, private productService: ProductService) { }
 
@@ -56,5 +58,9 @@ export class HeaderComponent {
 
   submitSearch = (val: string) => {
     this.route.navigate([`search/${val}`]);
+  }
+
+  redirectDetails = (id: number) => {
+    this.route.navigate(['/details/'+id]);
   }
 }
