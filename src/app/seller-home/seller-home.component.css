@@ -1,6 +1,7 @@
 .product-list, th, td{
     font-weight: 100;
     text-align: center;
+    margin-bottom: 50px;
 }
 table{
     font-weight: 100;

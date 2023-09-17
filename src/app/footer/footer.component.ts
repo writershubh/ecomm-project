@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { faFacebook, faTwitter, faGoogle, faInstagram, faLinkedin, faGithub, faApple, faAndroid, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faHouse, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faThreads, faInstagram, faLinkedin, faGithub, faApple, faAndroid, faYoutube, faWhatsapp, faFacebookMessenger, faTelegram, faXTwitter, faSnapchat, faDiscord } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faHouse, faPhone, faHeart } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-footer',
@@ -10,8 +10,8 @@ import { faEnvelope, faHouse, faPhone } from '@fortawesome/free-solid-svg-icons'
 export class FooterComponent implements OnInit {
 
   faFacebook = faFacebook;
-  faTwitter = faTwitter;
-  faGoogle = faGoogle;
+  faXTwitter = faXTwitter;
+  faThreads = faThreads;
   faInstagram = faInstagram;
   faLinkedin = faLinkedin;
   faGithub = faGithub;
@@ -21,6 +21,12 @@ export class FooterComponent implements OnInit {
   faApple = faApple;
   faAndroid = faAndroid;
   faYoutube = faYoutube;
+  faWhatsapp = faWhatsapp;
+  faFacebookMessenger = faFacebookMessenger;
+  faTelegram = faTelegram;
+  faSnapchat = faSnapchat;
+  faDiscord = faDiscord;
+  faHeart = faHeart;
 
   constructor() { }
 
