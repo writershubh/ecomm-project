@@ -1,8 +1,8 @@
-<div class="seller-auth">
+<div class="user-auth">
     <!-- Signup Area -->
-    <div *ngIf="!showLogin" class="signup">
+    <div *ngIf="!showLogin" class="login">
         <h1>Create a new account</h1>
-        <form #sellerSignUp="ngForm" (ngSubmit)="signUp(sellerSignUp.value)" class="common-form">
+        <form #userSignUp="ngForm" (ngSubmit)="signUp(userSignUp.value)" class="common-form">
             <input class="form-input" type="text" ngModel name="name" placeholder="Enter Name">
             <input class="form-input" type="email" ngModel name="email" placeholder="Enter Email">
             <input class="form-input" type="password" ngModel name="password" placeholder="Enter Password">

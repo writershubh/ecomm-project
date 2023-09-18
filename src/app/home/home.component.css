@@ -8,7 +8,6 @@ p{
 }
 .product-list-wrapper{
     margin-top: 80px;
-    /* margin-bottom: 80px; */
 }
 .product-item{
     border: 1px solid #ddd;
@@ -39,4 +38,37 @@ p{
 }
 h1{
     text-align: center !important;
+}
+.product-footer{
+    background-color: black;
+    color: white;
+}
+.card_container{
+    overflow-x: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px;
+    justify-content: center;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+}
+.text-section{
+    height: 30%;
+}
+h3{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+    letter-spacing: .009375em;
+    margin: 0 !important;
 }

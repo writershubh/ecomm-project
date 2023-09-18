@@ -11,15 +11,16 @@ export class SellerService {
 
   isSellerLoggedIn = new BehaviorSubject<boolean>(false);
   isLoginError = new EventEmitter<boolean>(false);
-  
+
   constructor(private http: HttpClient, private router: Router) { }
 
-  userSignUp = (data: signUp) => {
-    this.http.post('http://localhost:3000/seller', data, { observe: 'response' }).subscribe((result: any) => {
-      this.isSellerLoggedIn.next(true);
-      localStorage.setItem('seller', JSON.stringify(result.body));
-      this.router.navigate(['seller-home']);
-    });
+  userSignUp(data: signUp) {
+    this.http.post('http://localhost:3000/seller', data, { observe: 'response' }).subscribe((result) => {
+      if (result) {
+        localStorage.setItem('seller', JSON.stringify(result.body))
+        this.router.navigate(['seller-home'])
+      }
+    })
   }
 
   reloadSeller = () => {
