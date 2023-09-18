@@ -1,3 +1,5 @@
+![image](https://github.com/writershubh/ecomm-project/assets/33975492/8458c7f0-5af0-4e03-8200-03b38f68cd02)
+
 # EcommProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
@@ -25,6 +27,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
-![image](https://github.com/writershubh/ecomm-project/assets/33975492/672f33ec-8b89-4a34-82c1-274a7f6f6ff5)
-
