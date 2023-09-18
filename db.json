@@ -35,6 +35,12 @@
       "password": "abc@123",
       "email": "hhh@hh.com",
       "id": 6
+    },
+    {
+      "name": "Seller",
+      "email": "seller@seller.com",
+      "password": "abc@123",
+      "id": 7
     }
   ],
   "products": [
@@ -119,5 +125,6 @@
       "description": "As part of our efforts to reach carbon neutrality by 2030, iPhone 13 does not include a power adapter or EarPods. Included in the box is a USB‑C to Lightning Cable that supports charging and is compatible with USB‑C power adapters and computer ports.",
       "id": 9
     }
-  ]
+  ],
+  "users": []
 }

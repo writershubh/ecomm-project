@@ -2,12 +2,13 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { ProductService } from '../services/product.service';
 import { product } from '../data-type';
-import { faCircleUser } from '@fortawesome/free-solid-svg-icons';
+import { faCircleUser, faCircle } from '@fortawesome/free-solid-svg-icons';
+import { faApplePay, faGooglePay } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent {
 
@@ -15,6 +16,9 @@ export class HeaderComponent {
   sellerName = '';
   searchResult: undefined | product[];
   faCircleUser = faCircleUser;
+  faCircle = faCircle;
+  faApplePay = faApplePay;
+  faGooglePay = faGooglePay;
 
   constructor(private route: Router, private productService: ProductService) { }
 
