@@ -34,10 +34,17 @@
             <li><a routerLink="/user-auth"><strong>Customer</strong></a></li>
             <li><a href="#"><strong>Cart(0)</strong></a></li>
         </ul>
+        <ul *ngSwitchCase="'user'">
+            <li><a routerLink=""> <strong>Home</strong></a></li>
+            <li><a routerLink="seller-auth"><strong>Seller</strong></a></li>
+            <li><a routerLink="user-auth"><strong>{{userName | titlecase}}</strong></a></li>
+            <li><a (click)="userLogout()"><strong>Logout</strong></a></li>
+            <li><a href="#"><strong>Cart(0)</strong></a></li>
+        </ul>
         <ul *ngSwitchCase="'seller'">
             <li><a routerLink="seller-add-product"><strong>Add Product</strong></a></li>
             <li><a routerLink="seller-home"><strong>List</strong></a></li>
-            <li><a (click)="logout()" class="logout"><strong>Logout</strong></a></li>
+            <li><a (click)="sellerLogout()" class="logout"><strong>Logout</strong></a></li>
             <li><fa-icon [icon]="faCircleUser"></fa-icon><a style="color: blueviolet !important;" href="#"> <strong> {{sellerName | titlecase}}</strong></a></li>
         </ul>
     </div>

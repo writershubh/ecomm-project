@@ -15,7 +15,7 @@ export class UserAuthComponent implements OnInit{
   constructor(private user: UserService) {}
 
   ngOnInit(): void {
-    
+    this.user.userAuthReload();
   }
 
   signUp = (data: signUp) => {
@@ -26,11 +26,11 @@ export class UserAuthComponent implements OnInit{
 
   }
 
-  openLogin = () => {
+  openLoginUser = () => {
     this.showLogin = true;
   }
 
-  openSignUp = () => {
+  openSignUpUser = () => {
     this.showLogin = false;
   }
 }

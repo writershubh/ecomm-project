@@ -36,12 +36,20 @@ p{
     justify-content: space-evenly;
     padding: 10px;
 }
+.product-item .product-footer-cart{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
 h1{
     text-align: center !important;
 }
 .product-footer{
     background-color: black;
     color: white;
+}
+.product-footer-cart{
+    background-color: #24252a12;
 }
 .card_container{
     overflow-x: auto;
