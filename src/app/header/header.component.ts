@@ -19,6 +19,7 @@ export class HeaderComponent {
   faCircle = faCircle;
   faApplePay = faApplePay;
   faGooglePay = faGooglePay;
+  userName: string = '';
 
   constructor(private route: Router, private productService: ProductService) { }
 
@@ -26,12 +27,16 @@ export class HeaderComponent {
     this.route.events.subscribe((val: any) => {
       if (val.url) {
         if (localStorage.getItem('seller') && val.url.includes('seller')) {
+          let sellerStore = localStorage.getItem('seller');
+          let sellerData = sellerStore && JSON.parse(sellerStore)[0];
+          this.sellerName = sellerData.name;
           this.menuType = 'seller';
-          if(localStorage.getItem('seller')){
-            let sellerStore: any = localStorage.getItem('seller');
-            let sellerData: any = sellerStore && JSON.parse(sellerStore)[0];
-            this.sellerName = sellerData.name;
-          }
+        } else if (localStorage.getItem('user')) {
+          let userStore = localStorage.getItem('user');
+          let userData = userStore && JSON.parse(userStore);
+          this.userName = userData.name;
+          this.menuType = 'user';
+          // this.productService.getCartList(userData.id);
         } else {
           this.menuType = 'default';
         }
@@ -39,17 +44,22 @@ export class HeaderComponent {
     });
   }
 
-  logout = () => {
+  sellerLogout = () => {
     localStorage.removeItem('seller');
     this.route.navigate(['/']);
   }
 
+  userLogout = () => {
+    localStorage.removeItem('user');
+    this.route.navigate(['/user-auth']);
+  }
+
   searchProduct = (query: KeyboardEvent) => {
-    if (query){
+    if (query) {
       const element = query.target as HTMLInputElement;
       this.productService.searchProducts(element.value).subscribe((result) => {
-        if (result.length > 5){
-        result.length = 5;
+        if (result.length > 5) {
+          result.length = 5;
         }
         this.searchResult = result;
       });
@@ -65,6 +75,7 @@ export class HeaderComponent {
   }
 
   redirectDetails = (id: number) => {
-    this.route.navigate(['/details/'+id]);
+    this.route.navigate(['/details/' + id]);
   }
 }
+
