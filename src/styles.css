@@ -53,3 +53,12 @@ p {
 .h5class{
     color: green;
 }
+.invalid-input {
+    color: red;
+    font-size: 12px;
+    margin-top: -12px !important;
+    text-align: left;
+}
+button:disabled{
+    cursor: not-allowed;
+}

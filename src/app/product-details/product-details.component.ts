@@ -23,22 +23,31 @@ export class ProductDetailsComponent implements OnInit {
   faPlus = faPlus;
 
   productData: undefined | product;
-  productQuantity: number = 1;
+  productQuantity = 1;
 
   constructor(private activateRoute: ActivatedRoute, private productService: ProductService) { }
 
   ngOnInit(): void {
-    let productId = this.activateRoute.snapshot.paramMap.get('productId');
+    const productId = this.activateRoute.snapshot.paramMap.get('productId');
     productId && this.productService.getProduct(productId).subscribe((result) => {
       this.productData = result;
     });
   }
 
   handleQuantity = (val: string) => {
-    if (this.productQuantity < 20 && val === 'plus'){
+    if (this.productQuantity < 20 && val === 'plus') {
       this.productQuantity += 1;
     } else if (this.productQuantity > 1 && val === 'min') {
       this.productQuantity -= 1;
+    }
+  }
+
+  addToCart = () => {
+    if (this.productData) {
+      this.productData.quantity = this.productQuantity;
+      if (!localStorage.getItem('user')) {
+        this.productService.localAddToCart(this.productData);
+      }
     }
   }
 }

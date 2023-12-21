@@ -16,9 +16,11 @@
         <p>Log in for faster checkout and see all your benefits.</p>
         <p class="error-p">{{authError}}</p>
         <form #userLogin="ngForm" (ngSubmit)="login(userLogin.value)" class="common-form">
-            <input class="form-input" type="email" ngModel name="email" placeholder="Enter Email">
-            <input class="form-input" type="password" ngModel name="password" placeholder="Enter Password">
-            <button class="form-button">Sign In</button>
+            <input class="form-input" type="email" ngModel name="email" placeholder="Enter Email" #email="ngModel" required email>
+            <p class="invalid-input"><span *ngIf="email.invalid && email.touched">Please Enter Valid Email</span></p>
+            <input class="form-input" type="password" ngModel name="password" placeholder="Enter Password" #password="ngModel" required minlength="6" maxlength="20">
+            <p class="invalid-input"><span *ngIf="password.invalid && password.touched">Please Enter Password</span></p>
+            <button [disabled]="userLogin.invalid" class="form-button">Sign In</button>
             <a class="auth-toggle-link" (click)="openSignUpUser()"><u>Create a new account</u></a>
         </form>
     </div>

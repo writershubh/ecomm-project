@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { ProductService } from '../services/product.service';
 import { product } from '../data-type';
 
@@ -7,13 +7,11 @@ import { product } from '../data-type';
   templateUrl: './seller-add-product.component.html',
   styleUrls: ['./seller-add-product.component.css']
 })
-export class SellerAddProductComponent implements OnInit {
+export class SellerAddProductComponent  {
 
   addProductMsg: string | undefined;
 
-  constructor(private product: ProductService) { }
-
-  ngOnInit(): void { }
+  constructor(private product: ProductService) { } 
 
   submitaddProduct = (data: product) => {
     this.product.addProduct(data).subscribe((result) => {

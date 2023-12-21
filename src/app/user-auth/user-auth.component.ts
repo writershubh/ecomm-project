@@ -23,7 +23,12 @@ export class UserAuthComponent implements OnInit{
   }
 
   login = (data: login) => {
-
+    this.user.userLogin(data);
+    this.user.invalidUserAuth.subscribe((result) => {
+      if (result) {
+        this.authError = 'Invalid Credentials';
+      }
+    });
   }
 
   openLoginUser = () => {
