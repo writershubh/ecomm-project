@@ -1,4 +1,5 @@
-![image](https://github.com/writershubh/ecomm-project/assets/33975492/8458c7f0-5af0-4e03-8200-03b38f68cd02)
+![screencapture-localhost-4200-2023-12-21-14_41_29](https://github.com/writershubh/ecomm-project/assets/33975492/4c94db31-d783-49d6-b123-9b79e3e5e8f7)
+
 
 # EcommProject
 
