@@ -126,5 +126,12 @@
       "id": 9
     }
   ],
-  "users": []
+  "users": [
+    {
+      "name": "Shubham Kumar",
+      "email": "shubham@user.com",
+      "password": "abc@123",
+      "id": 1
+    }
+  ]
 }

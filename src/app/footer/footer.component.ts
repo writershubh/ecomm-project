@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { faFacebook, faThreads, faInstagram, faLinkedin, faGithub, faApple, faAndroid, faYoutube, faWhatsapp, faFacebookMessenger, faTelegram, faXTwitter, faSnapchat, faDiscord } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faHouse, faPhone, faHeart } from '@fortawesome/free-solid-svg-icons';
 
@@ -7,7 +7,7 @@ import { faEnvelope, faHouse, faPhone, faHeart } from '@fortawesome/free-solid-s
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.css']
 })
-export class FooterComponent implements OnInit {
+export class FooterComponent {
 
   faFacebook = faFacebook;
   faXTwitter = faXTwitter;
@@ -28,9 +28,6 @@ export class FooterComponent implements OnInit {
   faDiscord = faDiscord;
   faHeart = faHeart;
 
+  // eslint-disable-next-line @typescript-eslint/no-empty-function
   constructor() { }
-
-  ngOnInit(): void {
-
-  }
 }

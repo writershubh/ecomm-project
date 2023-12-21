@@ -43,6 +43,18 @@ export class ProductService {
     return this.http.get<product[]>(`http://localhost:3000/products?q=${query}`);
   }
 
+  localAddToCart = (data: product) => {
+    let cartData: product[] = []; // Define the type of cartData as an array of product objects
+    const localCart = localStorage.getItem('localCart');
+    if(!localCart) {
+      localStorage.setItem('localCart', JSON.stringify(cartData));
+    } else{
+      cartData = JSON.parse(localCart);
+      cartData.push(data);
+      localStorage.setItem('localCart', JSON.stringify(cartData));
+    }
+  }
+
   getCartList(userId: number) {
     return this.http
       .get<product[]>('http://localhost:3000/cart?userId=' + userId, {

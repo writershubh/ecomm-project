@@ -16,7 +16,7 @@ export class SellerUpdateProductComponent implements OnInit {
   constructor(private activateRoute: ActivatedRoute, private productService: ProductService) { }
 
   ngOnInit(): void {
-    let productId = this.activateRoute.snapshot.paramMap.get('id');
+    const productId = this.activateRoute.snapshot.paramMap.get('id');
     productId && this.productService.getProduct(productId).subscribe((data) => {
       this.productData = data;
     });

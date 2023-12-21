@@ -19,24 +19,26 @@ export class HeaderComponent {
   faCircle = faCircle;
   faApplePay = faApplePay;
   faGooglePay = faGooglePay;
-  userName: string = '';
+  userName = '';
 
   constructor(private route: Router, private productService: ProductService) { }
 
+  // eslint-disable-next-line @angular-eslint/use-lifecycle-interface
   ngOnInit(): void {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     this.route.events.subscribe((val: any) => {
       if (val.url) {
         if (localStorage.getItem('seller') && val.url.includes('seller')) {
-          let sellerStore = localStorage.getItem('seller');
-          let sellerData = sellerStore && JSON.parse(sellerStore)[0];
+          const sellerStore = localStorage.getItem('seller');
+          const sellerData = sellerStore && JSON.parse(sellerStore)[0];
           this.sellerName = sellerData.name;
           this.menuType = 'seller';
         } else if (localStorage.getItem('user')) {
-          let userStore = localStorage.getItem('user');
-          let userData = userStore && JSON.parse(userStore);
+          const userStore = localStorage.getItem('user');
+          const userData = userStore && JSON.parse(userStore);
           this.userName = userData.name;
           this.menuType = 'user';
-          // this.productService.getCartList(userData.id);
+          this.productService.getCartList(userData.id);
         } else {
           this.menuType = 'default';
         }
