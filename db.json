@@ -41,6 +41,36 @@
       "email": "seller@seller.com",
       "password": "abc@123",
       "id": 7
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 8
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 9
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 10
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 11
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 12
     }
   ],
   "products": [
@@ -119,10 +149,10 @@
     {
       "name": "iPhone 13",
       "price": "69900",
-      "category": "mobile iOS",
       "color": "white",
-      "image": "https://cdn.shopify.com/s/files/1/0577/7371/9758/products/buy-apple-iphone-13-256gb-61-super-retina-xdr-wi-fi-5g-white-mobile-wibi-want-it-buy-it-kuwait-554646_large.png?v=1669747198",
+      "category": "mobile iOS",
       "description": "As part of our efforts to reach carbon neutrality by 2030, iPhone 13 does not include a power adapter or EarPods. Included in the box is a USB‑C to Lightning Cable that supports charging and is compatible with USB‑C power adapters and computer ports.",
+      "image": "https://cdn.shopify.com/s/files/1/0577/7371/9758/products/buy-apple-iphone-13-256gb-61-super-retina-xdr-wi-fi-5g-white-mobile-wibi-want-it-buy-it-kuwait-554646_large.png?v=1669747198",
       "id": 9
     }
   ],
@@ -132,6 +162,81 @@
       "email": "shubham@user.com",
       "password": "abc@123",
       "id": 1
+    },
+    {
+      "name": "Shubham Agrawal",
+      "email": "srajsam.sa@gmail.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 3
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 4
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 5
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 6
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 7
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 8
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 9
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 10
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 11
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 12
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 13
+    },
+    {
+      "name": "newuser",
+      "email": "abc@abc.com",
+      "password": "abc@123",
+      "id": 14
     }
-  ]
+  ],
+  "cart": []
 }

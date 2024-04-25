@@ -41,3 +41,8 @@ h6{
     border-radius: 5%;
     width: 150px;
 }
+.product-header-img{
+    object-fit: contain;
+    height: 600px;
+    width: 100%;
+}
