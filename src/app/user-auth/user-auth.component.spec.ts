@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { UserAuthComponent } from './user-auth.component';
+import { HttpClient } from '@angular/common/http';
 
 describe('UserAuthComponent', () => {
   let component: UserAuthComponent;
@@ -8,9 +9,10 @@ describe('UserAuthComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ UserAuthComponent ]
+      declarations: [UserAuthComponent],
+      providers: [HttpClient]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(UserAuthComponent);
     component = fixture.componentInstance;

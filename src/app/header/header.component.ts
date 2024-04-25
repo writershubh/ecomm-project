@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { ProductService } from '../services/product.service';
 import { product } from '../data-type';
-import { faCircleUser, faCircle } from '@fortawesome/free-solid-svg-icons';
+import { faCircleUser, faCircle, faCartShopping, faUserCircle } from '@fortawesome/free-solid-svg-icons';
 import { faApplePay, faGooglePay } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
@@ -15,11 +15,15 @@ export class HeaderComponent {
   menuType = 'default';
   sellerName = '';
   searchResult: undefined | product[];
+  cartItems = 0;
+
   faCircleUser = faCircleUser;
   faCircle = faCircle;
   faApplePay = faApplePay;
   faGooglePay = faGooglePay;
   userName = '';
+  cart = faCartShopping;
+  user = faUserCircle
 
   constructor(private route: Router, private productService: ProductService) { }
 
@@ -44,6 +48,13 @@ export class HeaderComponent {
         }
       }
     });
+    const cartData = localStorage.getItem('localCart');
+    if(cartData){
+      this.cartItems = JSON.parse(cartData).length;
+    }
+    this.productService.cartData.subscribe((items) => {
+      this.cartItems = items.length;
+    });
   }
 
   sellerLogout = () => {
@@ -53,7 +64,8 @@ export class HeaderComponent {
 
   userLogout = () => {
     localStorage.removeItem('user');
-    this.route.navigate(['/user-auth']);
+    this.route.navigate(['/']);
+    this.productService.cartData.emit([]);
   }
 
   searchProduct = (query: KeyboardEvent) => {

@@ -28,7 +28,7 @@ export class SellerAuthComponent implements OnInit {
     this.sellerService.userLogin(data);
     this.sellerService.isLoginError.subscribe((isError) => {
       if (isError) {
-        this.authError = 'The email address/password entered is incorrect.';
+        this.authError = 'Invalid Credentials';
       }
     })
   }

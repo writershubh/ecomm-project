@@ -67,8 +67,8 @@ img{
     display: list-item !important;
     z-index: 10;
     background-color: #fff;
-    width: 705px;
-    top: 65px;
+    width: 675px;
+    top: 115px;
     border: 1px solid #ddd;
 }
 .suggested-result li{
